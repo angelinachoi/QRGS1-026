@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0F93B91B692155002C9E7F /* vaccine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F93B81B692155002C9E7F /* vaccine.jpg */; };
+		5A0F93BB1B6924E7002C9E7F /* VaccineVerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F93BA1B6924E7002C9E7F /* VaccineVerificationScreen.swift */; };
+		5A0F93BF1B692E04002C9E7F /* Number Line 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F93BC1B692E04002C9E7F /* Number Line 1.PNG */; };
+		5A0F93C01B692E04002C9E7F /* Number Line 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F93BD1B692E04002C9E7F /* Number Line 3.PNG */; };
+		5A0F93C11B692E04002C9E7F /* Number Line 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F93BE1B692E04002C9E7F /* Number Line 4.PNG */; };
+		5A0F93C51B692E14002C9E7F /* Number Line 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F93C41B692E14002C9E7F /* Number Line 5.PNG */; };
+		5A1720A01B66CB6E00348E98 /* PatientVerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17209F1B66CB6E00348E98 /* PatientVerificationScreen.swift */; };
 		5A1BBA551B58029C00D4B43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA541B58029C00D4B43D /* AppDelegate.swift */; };
 		5A1BBA581B58029D00D4B43D /* QRGS1_026.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA561B58029D00D4B43D /* QRGS1_026.xcdatamodeld */; };
-		5A1BBA5A1B58029D00D4B43D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA591B58029D00D4B43D /* ViewController.swift */; };
+		5A1BBA5A1B58029D00D4B43D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA591B58029D00D4B43D /* LoginScreen.swift */; };
 		5A1BBA5D1B58029D00D4B43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BBA5B1B58029D00D4B43D /* Main.storyboard */; };
 		5A1BBA5F1B58029D00D4B43D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BBA5E1B58029D00D4B43D /* Images.xcassets */; };
 		5A1BBA621B58029D00D4B43D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BBA601B58029D00D4B43D /* LaunchScreen.xib */; };
 		5A1BBA6E1B58029D00D4B43D /* QRGS1_026Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA6D1B58029D00D4B43D /* QRGS1_026Tests.swift */; };
+		5A1BBA8D1B5834D100D4B43D /* FinalSubmitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA891B5834D100D4B43D /* FinalSubmitScreen.swift */; };
+		5A1BBA8E1B5834D100D4B43D /* PatientInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA8A1B5834D100D4B43D /* PatientInformationScreen.swift */; };
+		5A1BBA901B5834D100D4B43D /* VaccineInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA8C1B5834D100D4B43D /* VaccineInformationScreen.swift */; };
+		5A1BBA921B583C8800D4B43D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBA911B583C8800D4B43D /* WelcomeScreen.swift */; };
+		5A1FF1A01B617CC70013AE55 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF19F1B617CC70013AE55 /* Images */; };
+		5A1FF1A11B617CC70013AE55 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF19F1B617CC70013AE55 /* Images */; };
+		5A1FF1A31B617CF50013AE55 /* Grey Bruce Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A21B617CF50013AE55 /* Grey Bruce Logo.png */; };
+		5A1FF1A41B617CF50013AE55 /* Grey Bruce Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A21B617CF50013AE55 /* Grey Bruce Logo.png */; };
+		5A1FF1A61B617D0E0013AE55 /* Hamilton Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A51B617D0E0013AE55 /* Hamilton Logo.png */; };
+		5A1FF1A71B617D0E0013AE55 /* Hamilton Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A51B617D0E0013AE55 /* Hamilton Logo.png */; };
+		5A1FF1A91B617D120013AE55 /* Niagara Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A81B617D120013AE55 /* Niagara Logo.png */; };
+		5A1FF1AA1B617D120013AE55 /* Niagara Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1A81B617D120013AE55 /* Niagara Logo.png */; };
+		5A1FF1AC1B617D2F0013AE55 /* Ontario Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1AB1B617D2F0013AE55 /* Ontario Logo.png */; };
+		5A1FF1AD1B617D2F0013AE55 /* Ontario Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1AB1B617D2F0013AE55 /* Ontario Logo.png */; };
+		5A1FF1AF1B617D380013AE55 /* Peel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1AE1B617D380013AE55 /* Peel Logo.png */; };
+		5A1FF1B01B617D380013AE55 /* Peel Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1AE1B617D380013AE55 /* Peel Logo.png */; };
+		5A1FF1B21B617D3D0013AE55 /* Toronto Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1B11B617D3D0013AE55 /* Toronto Logo.png */; };
+		5A1FF1B31B617D3D0013AE55 /* Toronto Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1B11B617D3D0013AE55 /* Toronto Logo.png */; };
+		5A1FF1B51B617D420013AE55 /* personalInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1B41B617D420013AE55 /* personalInfo.png */; };
+		5A1FF1B61B617D420013AE55 /* personalInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FF1B41B617D420013AE55 /* personalInfo.png */; };
+		5A8285631B6970BD006563AA /* Number Line 2 copy.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A8285621B6970BD006563AA /* Number Line 2 copy.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +55,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0F93B81B692155002C9E7F /* vaccine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaccine.jpg; sourceTree = "<group>"; };
+		5A0F93BA1B6924E7002C9E7F /* VaccineVerificationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineVerificationScreen.swift; sourceTree = "<group>"; };
+		5A0F93BC1B692E04002C9E7F /* Number Line 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number Line 1.PNG"; sourceTree = "<group>"; };
+		5A0F93BD1B692E04002C9E7F /* Number Line 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number Line 3.PNG"; sourceTree = "<group>"; };
+		5A0F93BE1B692E04002C9E7F /* Number Line 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number Line 4.PNG"; sourceTree = "<group>"; };
+		5A0F93C41B692E14002C9E7F /* Number Line 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number Line 5.PNG"; sourceTree = "<group>"; };
+		5A17209F1B66CB6E00348E98 /* PatientVerificationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientVerificationScreen.swift; sourceTree = "<group>"; };
 		5A1BBA4F1B58029C00D4B43D /* QRGS1-026.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRGS1-026.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1BBA531B58029C00D4B43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1BBA541B58029C00D4B43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1BBA571B58029D00D4B43D /* QRGS1_026.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRGS1_026.xcdatamodel; sourceTree = "<group>"; };
-		5A1BBA591B58029D00D4B43D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A1BBA591B58029D00D4B43D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		5A1BBA5C1B58029D00D4B43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A1BBA5E1B58029D00D4B43D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A1BBA611B58029D00D4B43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5A1BBA671B58029D00D4B43D /* QRGS1-026Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRGS1-026Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1BBA6C1B58029D00D4B43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1BBA6D1B58029D00D4B43D /* QRGS1_026Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGS1_026Tests.swift; sourceTree = "<group>"; };
+		5A1BBA891B5834D100D4B43D /* FinalSubmitScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalSubmitScreen.swift; sourceTree = "<group>"; };
+		5A1BBA8A1B5834D100D4B43D /* PatientInformationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientInformationScreen.swift; sourceTree = "<group>"; };
+		5A1BBA8C1B5834D100D4B43D /* VaccineInformationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccineInformationScreen.swift; sourceTree = "<group>"; };
+		5A1BBA911B583C8800D4B43D /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		5A1FF19F1B617CC70013AE55 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		5A1FF1A21B617CF50013AE55 /* Grey Bruce Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey Bruce Logo.png"; path = "Images/Grey Bruce Logo.png"; sourceTree = "<group>"; };
+		5A1FF1A51B617D0E0013AE55 /* Hamilton Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hamilton Logo.png"; path = "Images/Hamilton Logo.png"; sourceTree = "<group>"; };
+		5A1FF1A81B617D120013AE55 /* Niagara Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Niagara Logo.png"; path = "Images/Niagara Logo.png"; sourceTree = "<group>"; };
+		5A1FF1AB1B617D2F0013AE55 /* Ontario Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ontario Logo.png"; path = "Images/Ontario Logo.png"; sourceTree = "<group>"; };
+		5A1FF1AE1B617D380013AE55 /* Peel Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Peel Logo.png"; path = "Images/Peel Logo.png"; sourceTree = "<group>"; };
+		5A1FF1B11B617D3D0013AE55 /* Toronto Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Toronto Logo.png"; path = "Images/Toronto Logo.png"; sourceTree = "<group>"; };
+		5A1FF1B41B617D420013AE55 /* personalInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personalInfo.png; path = Images/personalInfo.png; sourceTree = "<group>"; };
+		5A8285621B6970BD006563AA /* Number Line 2 copy.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number Line 2 copy.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +127,29 @@
 		5A1BBA511B58029C00D4B43D /* QRGS1-026 */ = {
 			isa = PBXGroup;
 			children = (
-				5A1BBA541B58029C00D4B43D /* AppDelegate.swift */,
-				5A1BBA591B58029D00D4B43D /* ViewController.swift */,
 				5A1BBA5B1B58029D00D4B43D /* Main.storyboard */,
+				5A1BBA541B58029C00D4B43D /* AppDelegate.swift */,
+				5A1BBA591B58029D00D4B43D /* LoginScreen.swift */,
+				5A1BBA911B583C8800D4B43D /* WelcomeScreen.swift */,
+				5A1BBA8A1B5834D100D4B43D /* PatientInformationScreen.swift */,
+				5A17209F1B66CB6E00348E98 /* PatientVerificationScreen.swift */,
+				5A1BBA8C1B5834D100D4B43D /* VaccineInformationScreen.swift */,
+				5A0F93BA1B6924E7002C9E7F /* VaccineVerificationScreen.swift */,
+				5A1BBA891B5834D100D4B43D /* FinalSubmitScreen.swift */,
+				5A1FF1A21B617CF50013AE55 /* Grey Bruce Logo.png */,
+				5A1FF1A51B617D0E0013AE55 /* Hamilton Logo.png */,
+				5A1FF1A81B617D120013AE55 /* Niagara Logo.png */,
+				5A1FF1AB1B617D2F0013AE55 /* Ontario Logo.png */,
+				5A1FF1AE1B617D380013AE55 /* Peel Logo.png */,
+				5A1FF1B11B617D3D0013AE55 /* Toronto Logo.png */,
+				5A1FF1B41B617D420013AE55 /* personalInfo.png */,
+				5A0F93B81B692155002C9E7F /* vaccine.jpg */,
+				5A0F93BC1B692E04002C9E7F /* Number Line 1.PNG */,
+				5A8285621B6970BD006563AA /* Number Line 2 copy.PNG */,
+				5A0F93BD1B692E04002C9E7F /* Number Line 3.PNG */,
+				5A0F93BE1B692E04002C9E7F /* Number Line 4.PNG */,
+				5A0F93C41B692E14002C9E7F /* Number Line 5.PNG */,
+				5A1FF19F1B617CC70013AE55 /* Images */,
 				5A1BBA5E1B58029D00D4B43D /* Images.xcassets */,
 				5A1BBA601B58029D00D4B43D /* LaunchScreen.xib */,
 				5A1BBA561B58029D00D4B43D /* QRGS1_026.xcdatamodeld */,
@@ -195,8 +263,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0F93C11B692E04002C9E7F /* Number Line 4.PNG in Resources */,
+				5A0F93BF1B692E04002C9E7F /* Number Line 1.PNG in Resources */,
+				5A1FF1AC1B617D2F0013AE55 /* Ontario Logo.png in Resources */,
+				5A8285631B6970BD006563AA /* Number Line 2 copy.PNG in Resources */,
+				5A1FF1AF1B617D380013AE55 /* Peel Logo.png in Resources */,
+				5A0F93C51B692E14002C9E7F /* Number Line 5.PNG in Resources */,
+				5A1FF1A01B617CC70013AE55 /* Images in Resources */,
+				5A1FF1A61B617D0E0013AE55 /* Hamilton Logo.png in Resources */,
 				5A1BBA5D1B58029D00D4B43D /* Main.storyboard in Resources */,
+				5A0F93B91B692155002C9E7F /* vaccine.jpg in Resources */,
+				5A1FF1A31B617CF50013AE55 /* Grey Bruce Logo.png in Resources */,
 				5A1BBA621B58029D00D4B43D /* LaunchScreen.xib in Resources */,
+				5A1FF1B21B617D3D0013AE55 /* Toronto Logo.png in Resources */,
+				5A0F93C01B692E04002C9E7F /* Number Line 3.PNG in Resources */,
+				5A1FF1B51B617D420013AE55 /* personalInfo.png in Resources */,
+				5A1FF1A91B617D120013AE55 /* Niagara Logo.png in Resources */,
 				5A1BBA5F1B58029D00D4B43D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +287,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1FF1A11B617CC70013AE55 /* Images in Resources */,
+				5A1FF1B31B617D3D0013AE55 /* Toronto Logo.png in Resources */,
+				5A1FF1B01B617D380013AE55 /* Peel Logo.png in Resources */,
+				5A1FF1B61B617D420013AE55 /* personalInfo.png in Resources */,
+				5A1FF1AD1B617D2F0013AE55 /* Ontario Logo.png in Resources */,
+				5A1FF1A71B617D0E0013AE55 /* Hamilton Logo.png in Resources */,
+				5A1FF1A41B617CF50013AE55 /* Grey Bruce Logo.png in Resources */,
+				5A1FF1AA1B617D120013AE55 /* Niagara Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A1BBA5A1B58029D00D4B43D /* ViewController.swift in Sources */,
+				5A1BBA5A1B58029D00D4B43D /* LoginScreen.swift in Sources */,
+				5A1BBA8D1B5834D100D4B43D /* FinalSubmitScreen.swift in Sources */,
+				5A0F93BB1B6924E7002C9E7F /* VaccineVerificationScreen.swift in Sources */,
+				5A1720A01B66CB6E00348E98 /* PatientVerificationScreen.swift in Sources */,
+				5A1BBA921B583C8800D4B43D /* WelcomeScreen.swift in Sources */,
 				5A1BBA551B58029C00D4B43D /* AppDelegate.swift in Sources */,
+				5A1BBA901B5834D100D4B43D /* VaccineInformationScreen.swift in Sources */,
+				5A1BBA8E1B5834D100D4B43D /* PatientInformationScreen.swift in Sources */,
 				5A1BBA581B58029D00D4B43D /* QRGS1_026.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +511,7 @@
 				5A1BBA731B58029D00D4B43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A1BBA741B58029D00D4B43D /* Build configuration list for PBXNativeTarget "QRGS1-026Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +520,7 @@
 				5A1BBA761B58029D00D4B43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
