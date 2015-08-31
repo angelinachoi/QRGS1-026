@@ -271,7 +271,7 @@ class FinalSubmitScreen: UIViewController, MFMailComposeViewControllerDelegate {
                 println("Ann error happened = \(err)")
             }
         }
-        
+        println("test")
         var task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
             println("Response: \(response)")
             var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
